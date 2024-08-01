@@ -54,7 +54,7 @@ Python tem algumas ferramentas para trabalhar com escalonamento de dados, a bibl
 
 #### Scikit-Learn:
 
-Scikit-learn, '''é o principal kit de ferramentas de uso geral para trabalhar com Machine Learning dos programadores Python.''' O scikit-Learn contém submódulos para modelos de:
+Scikit-learn, **é o principal kit de ferramentas de uso geral para trabalhar com Machine Learning dos programadores Python.** O scikit-Learn contém submódulos para modelos de:
 
 1) Classificação: SVM, nearest neighbors, random forest, regressão logistica...;
 2) Regressão: Regressão Lasso, regressão Ridge...;
