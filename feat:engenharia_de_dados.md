@@ -2,6 +2,7 @@
 
 **Nome do Estagiário:** [Gabriel Eliezer Rodrigues]  
 **Data:** [01/08/2024]
+**Data:** [02/08/2024]
 
 ## Assuntos Vistos
 
