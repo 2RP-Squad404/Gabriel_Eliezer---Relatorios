@@ -7,9 +7,12 @@
 
 - [Bibliotecas Python]
 - [Estruturas De Código]
+- [Listas e Tuplas]
+- [Dicionarios]
+- [Sets (Conjuntos)]
 
 ## O Que Entendi
-Existem diversas bibliotecas em python, a estrutura de alguns comandos são mais simples que em outras linguagens.
+Existem diversas bibliotecas em python, a estrutura de alguns comandos são mais simples que em outras linguagens. Existem diversas formas de estruturar dados, Listas, Sets (Conjuntos), dicionarios... Cada forma de estruturar dados tem suas caracterisicas. Podemos identificar de algumas formas, listas podem ter diversos dados, textos e numeros, normalmente se apresentam entre colchetes com os valores dentro. Dicionarios tem sua extrutura com chave e valor. Conjuntos tem sua estrutura com valores entre 'chaves' {}.
 
 ## Engenharia de Dados
 
@@ -52,6 +55,20 @@ Existem diversas bibliotecas em python, a estrutura de alguns comandos são mais
 
 Python tem algumas ferramentas para trabalhar com escalonamento de dados, a biblioteca principal para isso é a Scikit-learn. Porém.... Vamos entender melhor o que é os scikit-learn abaixo:
 
+## Estrutura de Dados
+
+Na parte de estruturas de dados temos os seguintes itens: Listas, Dicionarios e Conjuntos.
+
+Listas: Sobre listas, podemos itendificar ela através da estrutura em que aparece, por exemplo:
+listaA=["elemento1", "elemento2"]
+
+Dicionarios: Sobre os dicionarios, podemos identificar eles através da estrutura em que aparece, por exemplo:
+
+dicionarioA = {"chave":valor,"chave":valor}
+
+Conjuntos: Sobre os conjuntos, podemos identificar eles através da estrutura em que aparece, por exemplo:
+conjuntosA={"elemento","elemento"}
+
 #### Scikit-Learn:
 
 Scikit-learn, **é o principal kit de ferramentas de uso geral para trabalhar com Machine Learning dos programadores Python.** O scikit-Learn contém submódulos para modelos de:
@@ -66,10 +83,11 @@ Scikit-learn, **é o principal kit de ferramentas de uso geral para trabalhar co
 O scikit-learn foi criado junto da biblioteca Pandas, o statsmodels e o IPython, isso tornou o Python uma linguagem de programação produtiva para ciência de dados.
 
 
-## Links de Laboratórios (se houver)
+## Links Utilizados (se houver)
 
 - [Coursera](https://www.coursera.org/learn/python-for-applied-data-science-ai/home/welcome)
-- 
+- [Coursera](https://author-ide.skills.network/render?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZF9pbnN0cnVjdGlvbnNfdXJsIjoiaHR0cHM6Ly9jZi1jb3Vyc2VzLWRhdGEuczMudXMuY2xvdWQtb2JqZWN0LXN0b3JhZ2UuYXBwZG9tYWluLmNsb3VkL0lCTURldmVsb3BlclNraWxsc05ldHdvcmstUFkwMTAxRU4tU2tpbGxzTmV0d29yay9sYWJzL2hhbmRvdXRzL0NoZWF0X1NoZWV0X1dlZWstMi5tZCIsInRvb2xfdHlwZSI6Imluc3RydWN0aW9uYWwtbGFiIiwiYWRtaW4iOmZhbHNlLCJpYXQiOjE3MTE2Mzg1OTl9.4L5yEN_BpE8odg36ZiLmkRTf3clYER2hiGe0Bu74ljo)
+  
 ## Trilha de Aprendizagem
 
 **Objetivo da Trilha:**  
@@ -77,12 +95,12 @@ A Trilha utilizada para desenvolver esse relatório foi a de "Engenharia de Dado
 
 **Módulos/Etapas Feitas:**  
 1. **[Módulo/Etapa 1]:** Bibliotecas Principais, tratamento de dados, criação de gráficos, coleta de dados, etc.
-2. **[Módulo/Etapa 2]:** Descrição do segundo módulo ou etapa.
-3. **[Módulo/Etapa 3]:** Descrição do terceiro módulo ou etapa.
+2. **[Módulo/Etapa 2]:** Estrutura de Dados, Tuplas, Filas, Conjuntos, Dicionarios e Listas.
 
 **Recursos Utilizados:**  
 - [Coursera]
 - [Udemy]
+- [Livro: Python para Análise de Dados (O'REILLY]
 
 
 **Desafios Encontrados:**  
