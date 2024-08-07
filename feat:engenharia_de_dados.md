@@ -84,7 +84,7 @@ Scikit-learn, **é o principal kit de ferramentas de uso geral para trabalhar co
 O scikit-learn foi criado junto da biblioteca Pandas, o statsmodels e o IPython, isso tornou o Python uma linguagem de programação produtiva para ciência de dados.
 
 
-## Links Utilizados (se houver)
+## Links Utilizados (se houver) 
 
 - [Coursera](https://www.coursera.org/learn/python-for-applied-data-science-ai/home/welcome)
 - [Coursera](https://author-ide.skills.network/render?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZF9pbnN0cnVjdGlvbnNfdXJsIjoiaHR0cHM6Ly9jZi1jb3Vyc2VzLWRhdGEuczMudXMuY2xvdWQtb2JqZWN0LXN0b3JhZ2UuYXBwZG9tYWluLmNsb3VkL0lCTURldmVsb3BlclNraWxsc05ldHdvcmstUFkwMTAxRU4tU2tpbGxzTmV0d29yay9sYWJzL2hhbmRvdXRzL0NoZWF0X1NoZWV0X1dlZWstMi5tZCIsInRvb2xfdHlwZSI6Imluc3RydWN0aW9uYWwtbGFiIiwiYWRtaW4iOmZhbHNlLCJpYXQiOjE3MTE2Mzg1OTl9.4L5yEN_BpE8odg36ZiLmkRTf3clYER2hiGe0Bu74ljo)
