@@ -1,68 +1,114 @@
 # Relatório de Estudos
 
 **Nome do Estagiário:** [Gabriel Eliezer Rodrigues]  
-**Data:** [05/08/2024]
-**Data:** [06/08/2024]
-**Data:** [07/08/2024]
+**Data:** [01/08/2024]
+**Data:** [02/08/2024]
 
 ## Assuntos Vistos
 
-- [VCS - Version Control System]
-- [Fluxo GitFlow]
-- [Comandos Git]
-- [Historicos de Commit]
+- [Bibliotecas Python]
+- [Estruturas De Código]
+- [Listas e Tuplas]
+- [Dicionarios]
+- [Sets (Conjuntos)]
 
 ## O Que Entendi
-Git é um sistema de controle de versões, usado principalmente em projetos onde é necessário o controle de versões. O Git facilita o trabalho de mais de uma pessoa em um mesmo projeto, além de ter diversas funcionalidades, como por exemplo, historicos de commit, onde é possível verificar, quem fez o commit, o que foi alterado de uma versão para outra, fazer merge de um código para outro para atualizar versão. Existe a forma de trabalhar com as branches no qual chamamos de GitFlow, onde temos uma branch main, develop, e as features que são criadas com base na develop... 
+Existem diversas bibliotecas em python, a estrutura de alguns comandos são mais simples que em outras linguagens. Existem diversas formas de estruturar dados, Listas, Sets (Conjuntos), dicionarios... Cada forma de estruturar dados tem suas caracterisicas. Podemos identificar de algumas formas, listas podem ter diversos dados, textos e numeros, normalmente se apresentam entre colchetes com os valores dentro. Dicionarios tem sua extrutura com chave e valor. Conjuntos tem sua estrutura com valores entre 'chaves' {}.
 
-## Git
+## Engenharia de Dados
 
 #### O que é?
 
-  Git é um sistema de versionamento de código (SVM), existem diversos SVM sendo o GIT o mais conhecido e utilizado, dentre os SVM podemos citar alguns, git, subversion, mercurial, perforce helix core e bazaar. Cada sistema tem suas caracteristicas, com o Git temos o minitoramento das versões de commit, historico de commits, temos diversos comandos para auxiliar a forma de trabalhar com o GIT, dentre os comandos temos alguns que são interessantes de citar, como, "git diff", que mostra a diferença entre commits, "git commit" que cria um commit com os itens que foram adicionados pelo usuario. Existem diversos comandos que podem nos auxiliar.
+  Engenharia de dados não se detem sómente a parte de dados, também se enquadra como engenharia de dados, manutenção de sistemas e armazenamento de dados, esses pontos são algo que normalmente não se imaginaria que um engenheiro de dados faria, porém é sómente isso, temos a parte que de fato trata sobre os dados, seja levantamento de dados, levantamento de dados, modelagem de dados, entre outros assuntos.
 
- ##### GitHub:
+ ##### Python:
 
-  GitHub é uma plataforma de hospedagem de código-fonte, onde podemos armazenar nossos arquivos para projetos pessoais e trabalhar com o versionamento de código. O GitHub é bastante utilizado para projetos de pequena escala e por estudantes, podendo ser uma forma poderosa de aprender sobre o sistema Git, obter experiência com Versionamento de código e trabalhar com as pessoas em um mesmo projeto. GitHub tem ferramentas que possibilitam verificar como esta o fluxo das branchs desde o inicio do projeto até uma data determinada, é disponibilizado uma ferramenta com diversos recursos para os usuarios terem uma experiência incrível.
+  Python é uma linguagem de programação orientada a objeto, sendo muito poderosa para o tratamento de dados, modelagem de dados, exibição de gráficos e levantamento de dados. Porém Python não se prende sómente a isso, ela também é utilizada para outros pontos importantes com a vasta gama de bibliotecas que ele possuí. Python tem bibliotecas para trabalhar com:
+
+  - Banco de dados;
+  - Automação (ex:Raspberry);
+  - Captura de dados na Web;
+  - Processamento de texto;
+  - Processamento de imagem;
+  - Aprendizado de maquina;
+  - Análise de dados.
  
+  #### Bibliotecas de Ciência de Dados:
 
- #### Funcionalidades do Git:
+  1) Pandas
+  2) Numpy
+  3) Scipy
+  4) Matplotlib
+ 
+  #### Bibliotecas de Inteligência Artificial:
 
- 1) Histórico: temos acesso ao historico de versões dos códigos que subimos para a plataforma, caso ocorra algum erro é possível retornar uma versão anterior onde esse erro não existia, fazer a correção e subir uma nova versão corrigida.
+  1) TensorFlow
+  2) PyTorch
+  3) Keras
+  4) Scikit-learn
+ 
+  #### Processamento de Linguagem Natural:
 
-2) Ramos: no sistema de git podemos trabalhar com os ramos (branchs), além de trbalharmos com as branchs temos o sistema de GitFlow, onde temos uma branch Main, uma develop e criamos as features com base na develop, a develop é uma branch onde sempre deve estar mais atualizada que a main ou igual, isso ocorre pois as atualizações são jogadas na develop e nao diretamente na main. Como funciona o GitFlow? No gitFlow temos a branch main e develop, as features são branchs criadas com base na develop, onde nas features criamos atualizações menores que são commitadas para o repositorio remoto e depois fazemos o merge que é juntar o código de uma feature com a develop. Sempre que criamos uma nova funcionalidade e subimos para a develop devemo excluir a branch em que estavamos trabalhando, o código que esta na branch da develop não pode simplesmente ser colocado na branch main, ele deve ser inserido em uma branch chamada Release que é criado com base na develop e nessa branch release fazemos os testes finais para saber se o codigo da develop está correto, também na branch release é feito os ajustes finais para o código, após terminar o código na release ele é jogado na branch develop e na main, após isso a branch main e develop estão iguais e é só seguir o fluxo do projeto normalmente.
+  PLN ou Processamento de linguagem natural, é a área que extraí insights de dados não extruturados baseados em Textos. Para auxiliar esse assunto, temos a biblioteca, "Natural Language Toolkit" (NLTK).
 
-3) Frente de Trabalho: Com o git é possível desenvolver aplicações em paralelo no mesmo projeto, uma pessoa consegue trabalhar em paralelo com outra no mesmo projeto, até mesmo em um arquivo igual.
 
-4) Rastreabilidade: Quando se fala de rastreabilidade, queremos falar sobre tudo que ocorre no projeto, quando fazemos um commit, quando alteramos alguma parte em um código. É possível comparar versões de commits para saber o que elas tem de diferentes entre ambas, também podemos ver o historico de commits, quem fez o commit, quando a pessoa fez o commit, o que foi alterado da versao do commit dela para a anterior entre outros pontos. Cada commit gera um hash unico que é possivel utiizar para identificar o commit.
+## Escalonamento de Dados:
+
+Python tem algumas ferramentas para trabalhar com escalonamento de dados, a biblioteca principal para isso é a Scikit-learn. Porém.... Vamos entender melhor o que é os scikit-learn abaixo:
+
+## Estrutura de Dados
+
+Na parte de estruturas de dados temos os seguintes itens: Listas, Dicionarios e Conjuntos.
+
+Listas: Sobre listas, podemos itendificar ela através da estrutura em que aparece, por exemplo:
+listaA=["elemento1", "elemento2"]
+
+Dicionarios: Sobre os dicionarios, podemos identificar eles através da estrutura em que aparece, por exemplo:
+
+dicionarioA = {"chave":valor,"chave":valor}
+
+Conjuntos: Sobre os conjuntos, podemos identificar eles através da estrutura em que aparece, por exemplo:
+conjuntosA={"elemento","elemento"}
+
+#### Scikit-Learn:
+
+Scikit-learn, **é o principal kit de ferramentas de uso geral para trabalhar com Machine Learning dos programadores Python.** O scikit-Learn contém submódulos para modelos de:
+
+1) Classificação: SVM, nearest neighbors, random forest, regressão logistica...;
+2) Regressão: Regressão Lasso, regressão Ridge...;
+3) Clustering: K-means, clustering espectral...;
+4) Redução de Dimensionalidade: PCA, seleção de atributos, fatoração de mtrizes...;
+5) Seleção de modelos: Grid Search, validação cruzada, métricas
+6) Pré-processamento: Extração de atributos, normalização
+
+O scikit-learn foi criado junto da biblioteca Pandas, o statsmodels e o IPython, isso tornou o Python uma linguagem de programação produtiva para ciência de dados.
+
 
 ## Links Utilizados (se houver)
 
-- [Coursera](https://www.coursera.org/learn/introduction-git-github)
-- [Udemy](https://www.coursera.org/learn/introduction-git-github)
-- [Atlassian](https://www.atlassian.com/br/git/tutorials/what-is-git)
-
+- [Coursera](https://www.coursera.org/learn/python-for-applied-data-science-ai/home/welcome)
+- [Coursera](https://author-ide.skills.network/render?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtZF9pbnN0cnVjdGlvbnNfdXJsIjoiaHR0cHM6Ly9jZi1jb3Vyc2VzLWRhdGEuczMudXMuY2xvdWQtb2JqZWN0LXN0b3JhZ2UuYXBwZG9tYWluLmNsb3VkL0lCTURldmVsb3BlclNraWxsc05ldHdvcmstUFkwMTAxRU4tU2tpbGxzTmV0d29yay9sYWJzL2hhbmRvdXRzL0NoZWF0X1NoZWV0X1dlZWstMi5tZCIsInRvb2xfdHlwZSI6Imluc3RydWN0aW9uYWwtbGFiIiwiYWRtaW4iOmZhbHNlLCJpYXQiOjE3MTE2Mzg1OTl9.4L5yEN_BpE8odg36ZiLmkRTf3clYER2hiGe0Bu74ljo)
   
 ## Trilha de Aprendizagem
 
 **Objetivo da Trilha:**  
-A trilha utilizada para desenvolver esse relatório foi a de GIT, o conteudo da trilha é bem raso e gerou duvidas que usei como norte para pesquisar sobre git e desenvolver o relatorio. 
+A Trilha utilizada para desenvolver esse relatório foi a de "Engenharia de Dados", apesar da trilha ser bem curta para um assunto tão vasto, estou muito ansioso para aprender mais sobre dados, IA, ML entre outros pontos importantes, pequisando por fora da trilha, obtive o conhecimento citado acima, no meu relatório, dei uma certa enfasê em algumas coisas importantes, como as bibliotecas principais de python.
 
 **Módulos/Etapas Feitas:**  
-1. **[Módulo/Etapa 1]:** Entender o que é Git, Sistemas de versionamento de Código, Git e GitHub.
-2. **[Módulo/Etapa 2]:** Comandos Git, gerenciamento de Branch, GitFlow aplicado.
+1. **[Módulo/Etapa 1]:** Bibliotecas Principais, tratamento de dados, criação de gráficos, coleta de dados, etc.
+2. **[Módulo/Etapa 2]:** Estrutura de Dados, Tuplas, Filas, Conjuntos, Dicionarios e Listas.
 
 **Recursos Utilizados:**  
 - [Coursera]
 - [Udemy]
-- [Atlassian]
+- [Livro: Python para Análise de Dados (O'REILLY]
 
 
 **Desafios Encontrados:**  
-Durante o desenvolvimento da trilha assim como as outras trilhas, me surgiram duvidas que consegui responder pesquisando, porém algumas respostas obtidas nem sempre eram esclarecedoras, então busquei outras fontes para desenvolver respostas.
+Os desafios superados estão focados em entender o conteúdo estudado durante os cursos e videos, por exemplo, entender como funciona o retorno de um comando especifico, os valores que ele retorna em determinados casos.
 
 **Feedback e Ajustes:**  
-Objetivo da trilha é um campo que não entendi muito como formular um texto relevante e coeso para ser acrescentado em tal campo.
+Esse formato de relatório não é muito interessante, acredito que alguns pontos abordados no relatório não são relevantes.
 
 **Próximos Passos:**  
-Aprender mais profundamente sobre os SVM e entender quais são mais utilizados no mercado de trabalho.
+Continuar estudando sobre python, suas sintaxes e aprofundar mais na grande quantidade de bibliotecas existentes.
