@@ -78,24 +78,21 @@ mais manejável. Essa técnica pode ser aplicada com o auxílio do framework Had
 
 ## Links Utilizados (se houver)
 
-- [Coursera](https://www.coursera.org/learn/introduction-git-github)
-
+- [Udemy](https://www.udemy.com/course/engenheiro-de-dados/learn/lecture/34023182#overview)
+- [Estante de Livros Senai](https://estantedelivros.senai.br/view/1T2Fo7Pq5Nr1KA2QtqBQXuZR3-TEJgdns)
 
   
-## Trilha de Aprendizagem
-
-**Objetivo da Trilha:**  
 
 **Módulos/Etapas Feitas:**  
-1. **[Módulo/Etapa 1]:**
-2. **[Módulo/Etapa 2]:** 
+1. **[Módulo/Etapa 1]:** Bancos de Dados, Big Data, Escalabilidade Horizontal e Vertical.
+2. **[Módulo/Etapa 2]:** 5V's, Dados estruturados e Não estruturados, HDFS, MapReduce.
 
 **Recursos Utilizados:**  
-
+Foram utilizados cursos da Udemy como base e também a estante virtual do senai Livro "Big Data e Analytics"
 
 
 **Desafios Encontrados:**  
-
-**Feedback e Ajustes:**  
+Como nas outras trilhas encontrei alguns conteúdos que tive alguma dificuldade para entender no começo porém eu li algumas vezes e assisti videos para entender melhor e assim consegui tirar minhas duvidas, também usei IA para tirar algumas duvidas que surgiram, a IA da estante virtual consegue tirar dúvidas relacionadas ao livro que eu estiver lendo, isso foi de grande ajuda.
 
 **Próximos Passos:**  
+Concluir o curso de Big Data da Udemy e ler o restante do Livro.
