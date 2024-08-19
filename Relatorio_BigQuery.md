@@ -38,8 +38,6 @@ O BigQuery pode user utilizado em diversos contextos, alguns exemplos de uso sã
 - [Google Cloud Tech](https://www.youtube.com/watch?v=d3MDxC_iuaw&list=PLIivdWyY5sqLAbIdmcMwsxWg-w8Px34MS)
 
 
-
-
 **Desafios Encontrados:**  
 Existe pouco tempo para estudar a fundo as trilhas que foram passadas no github.
 
